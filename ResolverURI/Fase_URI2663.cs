@@ -9,54 +9,36 @@ namespace ResolverURI
 {
     class Fase_URI2663
     {
-        static void Main(string[] args)
-        {
+        //static void Main(string[] args)
+        //{
 
-            var entrada = int.Parse(Console.ReadLine());
-            int maior = 0;
+        //    var N = int.Parse(Console.ReadLine());
+        //    var K = int.Parse(Console.ReadLine());
+        //    ArrayList pontos = new ArrayList();
+        //    int contador = K;
 
-            //ArrayList fraseCompleta = new ArrayList();
-            ArrayList palavras = new ArrayList();
-            string[] fraseCompleta = new string[entrada-1];
+        //    for (var i = 0; i < N; i++)
+        //    {
+        //        pontos.Add(int.Parse(Console.ReadLine()));
+        //    }
+        //    pontos.Add(-1);
 
-            for (var i=0; i<entrada; i++)
-            {
-                string frases = Console.ReadLine();
-                string[] vetor;
+        //    pontos.Sort();
+        //    pontos.Reverse();
 
-                vetor = frases.Split(' ');
+        //    while ((pontos[K - 1].ToString() == pontos[K].ToString()))
+        //    {
+        //        if (K < pontos.Count)
+        //        {
+        //            K++;
+        //        }
+        //        contador++;
+        //    }
 
-                for(var j=0; j<vetor.Length; j++)
-                {
-                    if (!vetor[j].Equals(""))
-                    {
-                        palavras.Add(vetor[j]);
-                    }
-                }
 
-                int contador = 0;
-                string frase = "";
-                for (var j=0; j<palavras.Count; j++)
-                {
-                    contador += palavras[j].ToString().Length;
-                    
-                    if (j == 0)
-                        frase = (palavras[0].ToString());
-                    else
-                        frase = (frase + " " + palavras[j]);
-                }
-                fraseCompleta[i] = (frase);
+        //    Console.WriteLine(contador);
 
-                if (contador > maior)
-                {
-                    maior = contador;
-                }
-            }
-
-            foreach(var item in fraseCompleta)
-            Console.WriteLine(item);
-
-            Console.ReadKey();
-        }
+        //    Console.ReadKey();
+        //}
     }
 }
