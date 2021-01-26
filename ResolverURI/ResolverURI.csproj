@@ -43,10 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fibonot_URI2846.cs" />
+    <Compile Include="WarmUp_b.cs" />
     <Compile Include="JornadaEstrelas_URI1973.cs" />
     <Compile Include="NotasMoedas_URI1021.cs" />
     <Compile Include="Fase_URI2663.cs" />
     <Compile Include="MontyHall_URI2879.cs" />
+    <Compile Include="Analogimon_URI2520.cs" />
     <Compile Include="PilhasParalelepípedos_URI3005.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
